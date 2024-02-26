@@ -1,0 +1,50 @@
+// Create your own resume data in JSON Format
+let Resume={
+    "Intro": {
+      "Name": "AISHWARYA S",
+      "Email i'd": "aishwaryajune6@gamil.com",
+      "Phone.no": 6281058397,
+      "Graduation": "B. C. A.",
+      "Location": {
+        "Address": "19-495/8 (2nd floor), Reddy Colony, Mittoor Extension",
+        "Postal-Code": 517001,
+        "Town": "Chittoor",
+        "State": "Andhra Pradesh",
+        "Country": "India"
+      },
+      "Profiles": [
+        {
+          "website": "www.linkedin.com/in/aishwaryajune6",
+          "github":"https://github.com/Aishwarya-Shanmugam"
+        }
+      ]
+    },
+     "Education": [
+      {
+        "Institution": "Vijayam Science And Arts Degree College",
+        "Department": "Computer Applications",
+        "StudyType": "Fulltime",
+        "Start of year": 2018,
+        "End of year": 2021,
+        "GPA": 7.7,
+      }
+    ],
+    "Skills": [
+      {
+        "Coding": "Python,Javascript",
+        "Level": "Beginner"
+       ]
+      }
+    ],
+    "Languages": [
+      {
+        "language": "Tamil, Telugu, and English, ",
+      }
+    ],
+    "Interests": [
+      {
+        "Hobbie": "Editing",
+      }
+    ]
+  }
+  console.log(Resume);
