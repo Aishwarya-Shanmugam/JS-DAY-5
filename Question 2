@@ -1,0 +1,49 @@
+//For the given question 1 JSON, iterate over all for loop (for, for in, for of, forEach)
+var json = [
+{
+    "I'd" : "Aishshan", 
+    "Screen" : "Iteration",
+    "Assigned from" : "Guvi Daily Task",
+    "Assigned on" : "04/01/2024",
+    "Mail I'd": "aishwaryajune6@gmail.com"
+},
+{
+    "I'd" : "Aishamu", 
+    "Screen"   : "Iteration",
+    "Assigned from" : "Guvi Daily Task",
+     "Assigned on" : "04/01/2024",
+    "Mail I'd": "aishwarya0652@gmail.com"
+}
+];
+
+//for loop
+for(var i = 0; i < json.length; i++)
+ {
+    var obj = json[i];
+    console.log(obj.I'd);
+    console.log(obj.Screen);
+    console.log(obj.Assigned from);
+    console.log(obj.Assigned on);
+    console.log(obj.Mail I'd);
+}
+//for Each
+json.forEach(function(obj) 
+{ 
+console.log(obj.msg); 
+}
+);
+//for In
+for (var key in json) 
+{
+if (json.hasOwnProperty(key))
+ {
+  console.log(json[key].I'd); 
+}
+}
+//for Of
+let text = "";
+for (let x of json[key].I'd) 
+{
+ text += x; 
+}
+ console.log(text);
